@@ -22,26 +22,14 @@ public class Issue0007 {
     }
 
     public static int reverse(int x) {
-        if (x == Integer.MIN_VALUE) {
-            return 0;
-        }
-        // 是否为负
-        boolean isMinus = x < 0;
-        if (isMinus) {
-            x = -x;
-        }
         int i = 0;
-        do {
+        while (x != 0) {
             int temp = x % 10;
             x = x / 10;
-            if ((temp + i * 10) / 10 < i) {
+            if ((temp + i * 10) / 10 != i) {
                 return 0;
             }
             i = temp + i * 10;
-
-        } while (x > 0);
-        if (isMinus) {
-            return -i;
         }
         return i;
     }
