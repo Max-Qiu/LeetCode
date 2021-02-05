@@ -6,6 +6,10 @@ import java.util.LinkedList;
 import java.util.Map;
 
 /**
+ * 有效的括号
+ * 
+ * https://leetcode-cn.com/problems/valid-parentheses/
+ * 
  * @author Max_Qiu
  */
 public class Issue0020 {

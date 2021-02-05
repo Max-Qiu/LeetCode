@@ -47,32 +47,33 @@ public class Issue0002 {
         return listNode;
     }
 
-}
+    /**
+     * 单向链表节点
+     */
+    static class ListNode {
 
-/**
- * 单向链表节点
- */
-class ListNode {
+        int val;
 
-    int val;
+        ListNode next;
 
-    ListNode next;
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-
-    @Override public String toString() {
-        String s = val + "";
-        if (this.next != null) {
-            s += "," + this.next.toString();
+        ListNode(int val) {
+            this.val = val;
         }
-        return s;
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+
+        @Override
+        public String toString() {
+            String s = val + "";
+            if (this.next != null) {
+                s += "," + this.next.toString();
+            }
+            return s;
+        }
+
     }
 
 }
