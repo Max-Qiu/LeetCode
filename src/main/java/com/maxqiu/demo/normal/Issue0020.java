@@ -51,6 +51,9 @@ public class Issue0020 {
         return s.length() == 0;
     }
 
+    /**
+     * 使用栈
+     */
     public static boolean isValid2(String s) {
         int n = s.length();
         // 长度为奇数，直接返回false

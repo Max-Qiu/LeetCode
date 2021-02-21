@@ -26,10 +26,15 @@ public class Issue0027 {
     }
 
     public static int removeElement(int[] nums, int val) {
+        // 用于标记不需要移除的元素索引
         int index = 0;
+        // 遍历数组
         for (int i = 0; i < nums.length; i++) {
+            // 如果当前元素是不需要移除的，
             if (nums[i] != val) {
+                // 则将当前元素放在标记索引处
                 nums[index] = nums[i];
+                // 同时索引+1，准备存放下一个不需要移除的元素
                 index++;
             }
         }
