@@ -12,7 +12,6 @@ import java.util.Set;
  * @author Max_Qiu
  */
 public class Issue0003 {
-
     public static void main(String[] args) {
         System.out.println(lengthOfLongestSubstring1("abcabcbb")); // 3
         System.out.println(lengthOfLongestSubstring1("bbbbb")); // 1
@@ -79,5 +78,4 @@ public class Issue0003 {
         }
         return ans;
     }
-
 }

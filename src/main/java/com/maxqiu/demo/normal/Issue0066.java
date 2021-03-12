@@ -10,7 +10,6 @@ import java.util.Arrays;
  * @author Max_Qiu
  */
 public class Issue0066 {
-
     public static void main(String[] args) {
         System.out.println(Arrays.toString(plusOne(new int[] {1, 2, 3})));
         System.out.println(Arrays.toString(plusOne(new int[] {4, 3, 2, 1})));
@@ -46,5 +45,4 @@ public class Issue0066 {
         // 返回数组
         return digits;
     }
-
 }

@@ -8,7 +8,6 @@ package com.maxqiu.demo.normal;
  * @author Max_Qiu
  */
 public class Issue0035 {
-
     public static void main(String[] args) {
         System.out.println(searchInsert1(new int[] {1, 3, 5, 6}, 5)); // 2
         System.out.println(searchInsert1(new int[] {1, 3, 5, 6}, 2)); // 1
@@ -45,5 +44,4 @@ public class Issue0035 {
         }
         return right + 1;
     }
-
 }

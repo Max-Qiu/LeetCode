@@ -8,7 +8,6 @@ package com.maxqiu.demo.normal;
  * @author Max_Qiu
  */
 public class Issue0053 {
-
     public static void main(String[] args) {
         System.out.println(maxSubArray(new int[] {-2, 1, -3, 4, -1, 2, 1, -5, 4})); // 6
         System.out.println(maxSubArray(new int[] {-2, -3, -4})); // -2
@@ -41,5 +40,4 @@ public class Issue0053 {
         }
         return max;
     }
-
 }

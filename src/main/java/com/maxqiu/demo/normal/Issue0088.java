@@ -10,7 +10,6 @@ import java.util.Arrays;
  * @author Max_Qiu
  */
 public class Issue0088 {
-
     public static void main(String[] args) {
         int[] nums1 = new int[] {1, 2, 3, 0, 0, 0};
         merge(nums1, 3, new int[] {2, 5, 6}, 3);
@@ -47,5 +46,4 @@ public class Issue0088 {
         // 将数组2未遍历的元素拷贝的数组1
         System.arraycopy(nums2, 0, nums1, 0, n + 1);
     }
-
 }

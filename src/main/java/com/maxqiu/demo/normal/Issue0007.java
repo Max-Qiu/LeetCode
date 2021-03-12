@@ -8,7 +8,6 @@ package com.maxqiu.demo.normal;
  * @author Max_Qiu
  */
 public class Issue0007 {
-
     public static void main(String[] args) {
         System.out.println(Integer.MAX_VALUE);
         System.out.println(reverse(123));
@@ -33,5 +32,4 @@ public class Issue0007 {
         }
         return i;
     }
-
 }

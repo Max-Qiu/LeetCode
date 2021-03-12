@@ -8,7 +8,6 @@ package com.maxqiu.demo.normal;
  * @author Max_Qiu
  */
 public class Issue0058 {
-
     public static void main(String[] args) {
         System.out.println(lengthOfLastWord("Hello World")); // 5
         System.out.println(lengthOfLastWord(" ")); // 0
@@ -30,5 +29,4 @@ public class Issue0058 {
         }
         return strLength - lastIndexOf - 1;
     }
-
 }

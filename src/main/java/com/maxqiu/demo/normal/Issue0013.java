@@ -10,7 +10,6 @@ import java.util.HashMap;
  * @author Max_Qiu
  */
 public class Issue0013 {
-
     public static void main(String[] args) {
         System.out.println(romanToInt("III"));// 3
         System.out.println(romanToInt("IV"));// 4

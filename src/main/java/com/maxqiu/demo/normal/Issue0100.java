@@ -1,5 +1,7 @@
 package com.maxqiu.demo.normal;
 
+import com.maxqiu.demo.entity.TreeNode;
+
 /**
  * 相同的树
  * 
@@ -8,7 +10,6 @@ package com.maxqiu.demo.normal;
  * @author Max_Qiu
  */
 public class Issue0100 {
-
     public static void main(String[] args) {
         System.out.println(isSameTree(new TreeNode(1, new TreeNode(2), new TreeNode(3)),
             new TreeNode(1, new TreeNode(2), new TreeNode(3))));
@@ -25,24 +26,4 @@ public class Issue0100 {
         }
         return false;
     }
-
-    /**
-     * 二叉树节点
-     */
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
 }

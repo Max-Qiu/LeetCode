@@ -1,5 +1,7 @@
 package com.maxqiu.demo.normal;
 
+import com.maxqiu.demo.entity.ListNode;
+
 /**
  * 删除排序链表中的重复元素
  * 
@@ -8,7 +10,6 @@ package com.maxqiu.demo.normal;
  * @author Max_Qiu
  */
 public class Issue0083 {
-
     public static void main(String[] args) {
         System.out.println(deleteDuplicates(new ListNode(1)));
         System.out.println(deleteDuplicates(new ListNode(1, new ListNode(1, new ListNode(2)))));
@@ -36,34 +37,4 @@ public class Issue0083 {
         }
         return head;
     }
-
-    /**
-     * 单向链表节点
-     */
-    static class ListNode {
-
-        int val;
-
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-
-        @Override
-        public String toString() {
-            String s = val + "";
-            if (this.next != null) {
-                s += "," + this.next.toString();
-            }
-            return s;
-        }
-
-    }
-
 }

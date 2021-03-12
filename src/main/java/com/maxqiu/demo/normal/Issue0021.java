@@ -1,5 +1,7 @@
 package com.maxqiu.demo.normal;
 
+import com.maxqiu.demo.entity.ListNode;
+
 /**
  * 合并两个有序链表
  * 
@@ -8,7 +10,6 @@ package com.maxqiu.demo.normal;
  * @author Max_Qiu
  */
 public class Issue0021 {
-
     public static void main(String[] args) {
         System.out.println(mergeTwoLists(new ListNode(1, new ListNode(2, new ListNode(4))),
             new ListNode(1, new ListNode(3, new ListNode(4)))));
@@ -37,34 +38,4 @@ public class Issue0021 {
             return new ListNode(l2.val, mergeTwoLists(l1, l2.next));
         }
     }
-
-    /**
-     * 单向链表节点
-     */
-    static class ListNode {
-
-        int val;
-
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-
-        @Override
-        public String toString() {
-            String s = val + "";
-            if (this.next != null) {
-                s += "," + this.next.toString();
-            }
-            return s;
-        }
-
-    }
-
 }

@@ -8,7 +8,6 @@ package com.maxqiu.demo.normal;
  * @author Max_Qiu
  */
 public class Issue0038 {
-
     public static void main(String[] args) {
         for (int i = 1; i < 11; i++) {
             System.out.println(countAndSay(i));
@@ -64,5 +63,4 @@ public class Issue0038 {
         // 返回新字符串
         return str.toString();
     }
-
 }

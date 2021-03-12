@@ -8,7 +8,6 @@ package com.maxqiu.demo.normal;
  * @author Max_Qiu
  */
 public class Issue0067 {
-
     public static void main(String[] args) {
         System.out.println(addBinary1("11", "1")); // 100
         System.out.println(addBinary1("1010", "1011")); // 10101
@@ -75,5 +74,4 @@ public class Issue0067 {
         }
         return s.toString();
     }
-
 }

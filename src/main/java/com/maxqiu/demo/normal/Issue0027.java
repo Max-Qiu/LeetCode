@@ -8,7 +8,6 @@ package com.maxqiu.demo.normal;
  * @author Max_Qiu
  */
 public class Issue0027 {
-
     public static void main(String[] args) {
         print(new int[] {3, 2, 2, 3}, 3);
         print(new int[] {0, 1, 2, 2, 3, 0, 4, 2}, 2);
@@ -40,5 +39,4 @@ public class Issue0027 {
         }
         return index;
     }
-
 }

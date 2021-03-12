@@ -8,7 +8,6 @@ package com.maxqiu.demo.normal;
  * @author Max_Qiu
  */
 public class Issue0009 {
-
     public static void main(String[] args) {
         System.out.println(isPalindrome(121));
         System.out.println(isPalindrome(1221));
@@ -64,5 +63,4 @@ public class Issue0009 {
         }
         return original == i;
     }
-
 }

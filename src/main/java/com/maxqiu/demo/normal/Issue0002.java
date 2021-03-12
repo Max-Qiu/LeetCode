@@ -1,5 +1,7 @@
 package com.maxqiu.demo.normal;
 
+import com.maxqiu.demo.entity.ListNode;
+
 /**
  * 两数相加
  *
@@ -8,7 +10,6 @@ package com.maxqiu.demo.normal;
  * @author Max_Qiu
  */
 public class Issue0002 {
-
     public static void main(String[] args) {
         ListNode l1 = new ListNode(9, new ListNode(9, new ListNode(9)));
         ListNode l2 = new ListNode(9);
@@ -46,34 +47,4 @@ public class Issue0002 {
         }
         return listNode;
     }
-
-    /**
-     * 单向链表节点
-     */
-    static class ListNode {
-
-        int val;
-
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-
-        @Override
-        public String toString() {
-            String s = val + "";
-            if (this.next != null) {
-                s += "," + this.next.toString();
-            }
-            return s;
-        }
-
-    }
-
 }

@@ -13,7 +13,6 @@ import java.util.Map;
  * @author Max_Qiu
  */
 public class Issue0020 {
-
     public static void main(String[] args) {
         System.out.println(isValid("()"));
         System.out.println(isValid("()[]{}"));
@@ -90,5 +89,4 @@ public class Issue0020 {
         }
         return stack.isEmpty();
     }
-
 }

@@ -8,7 +8,6 @@ package com.maxqiu.demo.normal;
  * @author Max_Qiu
  */
 public class Issue0070 {
-
     public static void main(String[] args) {
         System.out.println(climbStairs(1)); // 1
         System.out.println(climbStairs(2)); // 2
@@ -54,5 +53,4 @@ public class Issue0070 {
         }
         return count;
     }
-
 }

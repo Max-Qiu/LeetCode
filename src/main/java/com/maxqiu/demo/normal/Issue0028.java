@@ -8,7 +8,6 @@ package com.maxqiu.demo.normal;
  * @author Max_Qiu
  */
 public class Issue0028 {
-
     public static void main(String[] args) {
         System.out.println(strStr("hello", "ll"));
         System.out.println(strStr("aaaaa", "bba"));
@@ -25,5 +24,4 @@ public class Issue0028 {
         }
         return -1;
     }
-
 }

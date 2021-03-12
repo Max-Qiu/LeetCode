@@ -8,7 +8,6 @@ package com.maxqiu.demo.normal;
  * @author Max_Qiu
  */
 public class Issue0014 {
-
     public static void main(String[] args) {
         System.out.println(longestCommonPrefix(new String[] {"flower", "flow", "flight"}));
         System.out.println(longestCommonPrefix(new String[] {"dog", "racecar"}));
@@ -37,5 +36,4 @@ public class Issue0014 {
         // 如果第一个字符串遍历完了，则直接返回第一个字符串
         return strs[0];
     }
-
 }

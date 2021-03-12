@@ -11,7 +11,6 @@ import java.util.HashMap;
  * @author Max_Qiu
  */
 public class Issue0001 {
-
     public static void main(String[] args) {
         int[] nums = new int[] {3, 2, 4};
         int target = 6;
@@ -50,5 +49,4 @@ public class Issue0001 {
         }
         return null;
     }
-
 }
