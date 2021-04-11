@@ -1,3 +1,5 @@
+-- 上升的温度 https://leetcode-cn.com/problems/rising-temperature/
+
 DROP TABLE IF EXISTS `weather`;
 CREATE TABLE `weather`  (
   `Id` int,

@@ -1,3 +1,5 @@
+-- 超过经理收入的员工 https://leetcode-cn.com/problems/employees-earning-more-than-their-managers/
+
 DROP TABLE IF EXISTS `employee`;
 CREATE TABLE `employee`  (
   `Id` int,

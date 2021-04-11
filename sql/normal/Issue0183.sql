@@ -1,3 +1,5 @@
+-- 从不订购的客户 https://leetcode-cn.com/problems/customers-who-never-order/
+
 DROP TABLE IF EXISTS `customers`;
 CREATE TABLE `customers`  (
   `Id` int,

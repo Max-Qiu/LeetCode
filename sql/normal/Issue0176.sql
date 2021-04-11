@@ -1,3 +1,5 @@
+-- 第二高的薪水 https://leetcode-cn.com/problems/second-highest-salary/
+
 DROP TABLE IF EXISTS `employee`;
 CREATE TABLE `employee`  (
   `Id` int,

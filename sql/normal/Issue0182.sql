@@ -1,3 +1,5 @@
+-- 查找重复的电子邮箱 https://leetcode-cn.com/problems/duplicate-emails/
+
 DROP TABLE IF EXISTS `person`;
 CREATE TABLE `person`  (
   `Id` int,

@@ -1,3 +1,5 @@
+-- 组合两个表 https://leetcode-cn.com/problems/combine-two-tables/
+
 DROP TABLE IF EXISTS `address`;
 CREATE TABLE `address`  (
   `AddressId` int,
