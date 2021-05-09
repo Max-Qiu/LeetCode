@@ -3,6 +3,10 @@ package com.maxqiu.demo.normal;
 import java.util.Arrays;
 
 /**
+ * 移动零
+ * 
+ * https://leetcode-cn.com/problems/move-zeroes/
+ * 
  * @author Max_Qiu
  */
 public class Issue0283 {
