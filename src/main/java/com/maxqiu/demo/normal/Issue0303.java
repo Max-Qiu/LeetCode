@@ -1,6 +1,10 @@
 package com.maxqiu.demo.normal;
 
 /**
+ * 区域和检索 - 数组不可变
+ * 
+ * https://leetcode-cn.com/problems/range-sum-query-immutable/
+ * 
  * @author Max_Qiu
  */
 public class Issue0303 {
@@ -11,7 +15,7 @@ public class Issue0303 {
         System.out.println(numArray.sumRange(0, 5));
     }
 
-    static class NumArray {
+    public static class NumArray {
         int[] sums;
 
         public NumArray(int[] nums) {
