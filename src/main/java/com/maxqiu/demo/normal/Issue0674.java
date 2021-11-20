@@ -1,6 +1,10 @@
 package com.maxqiu.demo.normal;
 
 /**
+ * 674. 最长连续递增序列
+ *
+ * https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/
+ *
  * @author Max_Qiu
  */
 public class Issue0674 {
